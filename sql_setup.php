@@ -24,7 +24,7 @@ if($connect){		//开始连接
 		echo "<div align='center'><p><img src='images/ok.gif'></p><font color='#336600' size='4'  face='楷体_GB2312'><b>祝贺您，建表成功！<br></b></font></div><a href=\"guestbook.php\">转到留言薄</a>";
 		exit();
 	}
-	else echo "建表失败！<br>可能原因：<br>1.您在common.inc.php中的设置不正确<br>2.已经建立了数据表guestbook<br>3.其他可能的原因";
+	else echo "建表失败！<br>可能原因：<br>1.您在common.inc.php中的设置不正确<br>2.已经建立了数据表guestbook<br> 3.其他可能的原因.";
 }
 else echo $connect_error_message;//处理连接失败的情况
 ?>
